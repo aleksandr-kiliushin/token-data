@@ -1,6 +1,6 @@
 import { ChainId } from '@sushiswap/sdk'
 
-import { Token } from '#types'
+import { Token } from '../types'
 
 const mainnetTokens: Token[] = [
   {

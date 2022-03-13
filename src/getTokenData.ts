@@ -1,7 +1,7 @@
 import { ChainId } from '@sushiswap/sdk'
 
-import { mainnetTokens } from '#data'
-import { Token } from '#types'
+import { mainnetTokens } from './data'
+import { Token } from './types'
 
 const getTokenData = ({
   chainId,
