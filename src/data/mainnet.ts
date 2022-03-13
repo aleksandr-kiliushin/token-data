@@ -1,12 +1,14 @@
 import { ChainId } from '@sushiswap/sdk'
-import { Token } from 'src/types'
+
+import { Token } from '#types'
 
 const mainnetTokens: Token[] = [
   {
     address: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
     chainId: ChainId.MAINNET,
+    logoUrl:
+      'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/eth.svg',
     name: 'ETH',
-    logoUrl: '',
   },
   // {
   //   address: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',

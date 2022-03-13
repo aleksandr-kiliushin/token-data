@@ -14,6 +14,11 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
+    "paths": {
+      "#data": ["src/data"],
+      "#types": ["src/types"],
+      "#types/*": ["src/types/*"]
+    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
