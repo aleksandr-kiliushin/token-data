@@ -17,6 +17,13 @@ const mainnetTokens: Token[] = [
       'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/usdc.svg',
     name: 'USDC',
   },
+  {
+    address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
+    chainId: ChainId.MAINNET,
+    name: 'USDT',
+    logoUrl:
+      'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/usdt.svg',
+  },
   // {
   //   address: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
   //   name: 'UNISWAP_ROUTER_V2',
@@ -80,10 +87,6 @@ const mainnetTokens: Token[] = [
   // {
   //   address: '0x06325440D014e39736583c165C2963BA99fAf14E',
   //   name: 'STE_CRV',
-  // },
-  // {
-  //   address: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
-  //   name: 'USDT',
   // },
   // {
   //   address: '0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D',
