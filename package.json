@@ -11,7 +11,7 @@
   "main": "dist/index.js",
   "name": "token-data-shipper",
   "scripts": {
-    "build": "tsc"
+    "build": ""
   },
   "types": "dist/index.d.ts",
   "version": "0.0.10"
