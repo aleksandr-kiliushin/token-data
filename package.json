@@ -1,6 +1,6 @@
 {
   "name": "token-data-shipper",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "dependencies": {
     "@sushiswap/sdk": "5.0.0-canary.116"
   },
