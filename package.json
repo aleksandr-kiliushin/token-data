@@ -1,0 +1,12 @@
+{
+  "name": "token-data-shipper",
+  "version": "0.0.5",
+  "dependencies": {
+    "@sushiswap/sdk": "5.0.0-canary.116"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "3.2.0",
+    "@typescript-eslint/parser": "5.14.0",
+    "eslint": "8.11.0"
+  }
+}
