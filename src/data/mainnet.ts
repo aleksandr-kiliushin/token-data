@@ -20,9 +20,16 @@ const mainnetTokens: Token[] = [
   {
     address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
     chainId: ChainId.MAINNET,
-    name: 'USDT',
     logoUrl:
       'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/usdt.svg',
+    name: 'USDT',
+  },
+  {
+    address: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+    chainId: ChainId.MAINNET,
+    logoUrl:
+      'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/weth.svg',
+    name: 'WETH',
   },
   // {
   //   address: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
@@ -35,10 +42,6 @@ const mainnetTokens: Token[] = [
   // {
   //   address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
   //   name: 'DAI',
-  // },
-  // {
-  //   address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-  //   name: 'WETH',
   // },
   // {
   //   address: '0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490',
