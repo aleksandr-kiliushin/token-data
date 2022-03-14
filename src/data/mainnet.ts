@@ -13,6 +13,12 @@ const mainnetTokens: Token[] = [
     name: 'Alchemix',
   },
   {
+    address: '0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b',
+    chainId: ChainId.MAINNET,
+    logoUrl: mainnetAssetsPath + '/convex.svg',
+    name: 'Convex',
+  },
+  {
     address: '0x6b175474e89094c44da98b954eedeac495271d0f',
     chainId: ChainId.MAINNET,
     logoUrl: mainnetAssetsPath + '/dai.svg',
@@ -29,6 +35,12 @@ const mainnetTokens: Token[] = [
     chainId: ChainId.MAINNET,
     logoUrl: mainnetAssetsPath + '/fei-usd.svg',
     name: 'Fei USD',
+  },
+  {
+    address: '0x429881672b9ae42b8eba0e26cd9c73711b891ca5',
+    chainId: ChainId.MAINNET,
+    logoUrl: mainnetAssetsPath + '/pickle.svg',
+    name: 'Pickle',
   },
   {
     address: '0xeb4c2781e4eba804ce9a9803c67d0893436bb27d',
