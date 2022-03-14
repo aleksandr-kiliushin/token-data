@@ -31,6 +31,13 @@ const mainnetTokens: Token[] = [
       'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/weth.svg',
     name: 'WETH',
   },
+  {
+    address: '0x6b175474e89094c44da98b954eedeac495271d0f',
+    chainId: ChainId.MAINNET,
+    logoUrl:
+      'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/dai.svg',
+    name: 'DAI',
+  },
   // {
   //   address: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
   //   name: 'UNISWAP_ROUTER_V2',
@@ -38,10 +45,6 @@ const mainnetTokens: Token[] = [
   // {
   //   address: '0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F',
   //   name: 'SUSHISWAP_ROUTER',
-  // },
-  // {
-  //   address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
-  //   name: 'DAI',
   // },
   // {
   //   address: '0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490',
