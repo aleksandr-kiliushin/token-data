@@ -7,6 +7,12 @@ const mainnetAssetsPath =
 
 const mainnetTokens: Token[] = [
   {
+    address: '0xdbdb4d16eda451d0503b854cf79d55697f90c8df',
+    chainId: ChainId.MAINNET,
+    logoUrl: mainnetAssetsPath + '/alchemix.svg',
+    name: 'Alchemix',
+  },
+  {
     address: '0x6b175474e89094c44da98b954eedeac495271d0f',
     chainId: ChainId.MAINNET,
     logoUrl: mainnetAssetsPath + '/dai.svg',
