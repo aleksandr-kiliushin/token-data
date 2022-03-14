@@ -4,11 +4,25 @@ import { Token } from '../types'
 
 const mainnetTokens: Token[] = [
   {
+    address: '0x6b175474e89094c44da98b954eedeac495271d0f',
+    chainId: ChainId.MAINNET,
+    logoUrl:
+      'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/dai.svg',
+    name: 'DAI',
+  },
+  {
     address: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
     chainId: ChainId.MAINNET,
     logoUrl:
       'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/eth.svg',
     name: 'ETH',
+  },
+  {
+    address: '0xeb4c2781e4eba804ce9a9803c67d0893436bb27d',
+    chainId: ChainId.MAINNET,
+    name: 'renBTC',
+    logoUrl:
+      'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/renbtc.svg',
   },
   {
     address: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
@@ -25,18 +39,18 @@ const mainnetTokens: Token[] = [
     name: 'USDT',
   },
   {
+    chainId: ChainId.MAINNET,
+    address: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599',
+    logoUrl:
+      'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/wbtc.svg',
+    name: 'WBTC',
+  },
+  {
     address: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
     chainId: ChainId.MAINNET,
     logoUrl:
       'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/weth.svg',
     name: 'WETH',
-  },
-  {
-    address: '0x6b175474e89094c44da98b954eedeac495271d0f',
-    chainId: ChainId.MAINNET,
-    logoUrl:
-      'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets/mainnet-tokens/dai.svg',
-    name: 'DAI',
   },
   // {
   //   address: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
