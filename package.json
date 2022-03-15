@@ -11,8 +11,9 @@
   "main": "dist/index.js",
   "name": "token-data-shipper",
   "scripts": {
-    "build": "rm -rf dist && tsc"
+    "build": "rm -rf dist && tsc",
+    "prepare": "rm -rf dist && tsc"
   },
   "types": "dist/index.d.ts",
-  "version": "0.0.26"
+  "version": "0.0.27"
 }
